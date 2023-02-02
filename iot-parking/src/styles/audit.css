@@ -1,0 +1,30 @@
+.audit-container {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audit-table {
+    width: 40%;
+    text-align: center;
+    border: 4px solid #1c1b1b;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5%;
+}
+
+.audit-table th {
+    border-bottom: 3px solid #1c1b1b;
+    border-radius: 2px;
+}
+
+.entry {
+    background-color: #42cf68;
+}
+
+.exit {
+    background-color: #eb3651;
+}

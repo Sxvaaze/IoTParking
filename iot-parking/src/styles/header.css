@@ -1,0 +1,33 @@
+.header {
+    flex: 0 0 6%;
+    background-color: #1c1b1b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text {
+    color: #327ac7;
+    font-size: 1.35rem;
+    font-weight: 600;
+    font-family: 'Tahoma';
+    cursor: pointer;
+}
+
+.pages > * {
+    margin: 1%;
+}
+
+.pages {
+    width: 100%;    
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text a {
+    text-decoration: none;
+    color: inherit;
+}

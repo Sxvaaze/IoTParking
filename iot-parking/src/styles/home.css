@@ -1,0 +1,39 @@
+.slot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    height: 30vh;
+    margin: 10%;
+    width: 75%;
+    font-weight: 600;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+
+.slot-parent {
+    width: 60%;
+}
+
+.available {
+    background-color: #42cf68;
+}
+
+.unavailable {
+    background-color: #eb3651;
+}
+
+.home-container {
+    flex: 0 0 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slot-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
